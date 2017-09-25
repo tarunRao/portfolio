@@ -1,7 +1,7 @@
 (function(app){
     app.controller('aboutController', function($scope, $http, $window){
-        $http({method: "GET", url: "config/user.json"}).success(function(response){
-            $scope.user   =  response;
+        $http({method: "GET", url: "config/user.json"}).then(function(response){
+            $scope.user   =  response.data;
         });
 
         this.sendMail   =   function(emailId) {

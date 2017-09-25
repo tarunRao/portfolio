@@ -7,8 +7,8 @@
 
         this.init   =   function()
         {
-            $http({method: "GET", url: "config/experiences.json"}).success(function(response){
-                $scope.experiences      =  response;
+            $http({method: "GET", url: "config/experiences.json"}).then(function(response){
+                $scope.experiences      =  response.data;
                 $scope.totalExperience  =   _this.getOverallExperience($scope.experiences);
             });
         };

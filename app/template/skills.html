@@ -1,24 +1,23 @@
 
 <section class="skills">
-        <div class="row col-sm-offset-0">
-            <div class="col-sm-4 title">
-                <i class="icon fa fa-cogs"></i>Skills
-            </div>
-            <div class="col-sm-8">
-                <div class="border-line"></div>
-            </div>
+    <div class="row col-sm-offset-0">
+        <div class="col-sm-4 title">
+            <i class="icon fa fa-cogs"></i>Skills
         </div>
+        <div class="col-sm-8">
+            <div class="border-line"></div>
+        </div>
+    </div>
 
-        <div id="skills" class="row">
-            <div class="col-md-2 col-xs-4" ng-repeat="skill in skillsCtrl.skills">
-                <skillset
-                    title="skill.name"
-                    percent="skill.rate"
-                    ratings="skill.ratings"
-                    speed="20"
-                    colors="{center : '#eee', highlight : '#3699dc', remaining : '#ccc'}">
-                </skillset>
-                </div>
-            </div>
+    <div id="skills" class="row">
+        <div class="col-md-2 col-xs-4" ng-repeat="skill in skillsCtrl.skills">
+            <skillset
+                title="skill.name"
+                percent="skill.rate"
+                ratings="skill.ratings"
+                speed="20"
+                colors="{center : '#eee', highlight : '#3699dc', remaining : '#ccc'}">
+            </skillset>
         </div>
+    </div>
 </section>

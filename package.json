@@ -8,6 +8,11 @@
     "jit-grunt": "^0.10.0"
   },
   "dependencies": {
-    "angular-percent-circle-directive": "^1.1.0"
+    "angular": "^1.5.8",
+    "angular-percent-circle-directive": "^1.1.0",
+    "angular-route": "^1.5.8",
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.6.3",
+    "jquery": "^3.2.1"
   }
 }

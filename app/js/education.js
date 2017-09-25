@@ -3,8 +3,8 @@
     {
         $scope.educations  =   {};
 
-        $http({method: "GET", url: "config/educations.json"}).success(function(response){
-            $scope.educations   =  response;
+        $http({method: "GET", url: "config/educations.json"}).then(function(response){
+            $scope.educations   =  response.data;
         });
     });
 

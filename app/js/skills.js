@@ -3,8 +3,8 @@
         var scope       =   this;
         scope.skills    =   {};
 
-        $http({method: "GET", url: "config/skills.json"}).success(function(response){
-            scope.skills   =  response;
+        $http({method: "GET", url: "config/skills.json"}).then(function(response){
+            scope.skills   =  response.data;
 
             $(function () {
                 scope.initChart();
