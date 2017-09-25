@@ -1,0 +1,56 @@
+[
+    {
+        "companyName": "KRDS Software Development Pvt Ltd",
+        "roles": [
+            {
+                "designation": "Team Leader",
+                "periodFrom": "01/03/2016",
+                "periodTo": "",
+                "responsibilities": "Application development with both Frontend and Backend technology, database designs, project Code Reviews, performance optimizations; Team Lead roles such as creating technical documentation & guidelines, managing team effectively, delivering and deploying projects on time; Managerial roles such as project wireframe, planning, task breakdowns & client interactions"
+            },
+            {
+                "designation": "Product Technical Leader",
+                "periodFrom": "01/09/2015",
+                "periodTo": "01/03/2016",
+                "responsibilities": "Developing resposive websites and web applications, building complex databases, manage a team size of 5 and client interaction for requirement analysis & weekly updates, creating technical documentation"
+            },
+            {
+                "designation": "Software Engineer",
+                "periodFrom": "01/04/2014",
+                "periodTo": "01/08/2015",
+                "responsibilities": "Developing resposive websites and web applications, building complex databases, strictly delivering project on deadlines with code and product quality"
+            }
+        ],
+        "awards": [
+            {
+                "date": "1/12/2014",
+                "title": "The Ultimate Star",
+                "description": "Recieved certificate of excellence for brilliant and consistent high standards of performance"
+            }
+        ]
+    },
+    {
+        "companyName": "Griffin Infosystems Pty Ltd",
+        "roles": [
+            {
+                "designation": "Team Lead - Web Technology",
+                "periodFrom": "01/06/2012",
+                "periodTo": "01/04/2014",
+                "responsibilities": "Developing resposive websites and web applications, building complex databases, manage a team size of 5 and client interaction for requirement analysis & weekly updates, creating technical documentation"
+            }
+        ],
+        "awards": []
+    },
+    {
+        "companyName": "2AdPro Pvt Ltd",
+        "roles": [
+            {
+                "designation": "Web Designer - Junior",
+                "periodFrom": "01/11/2011",
+                "periodTo": "01/06/2012",
+                "responsibilities": "Responsibilities include Designing and integrating websites and creatives for print and web media (Logo / Banner / Flash Animation with scripting / Websites)"
+            }
+        ],
+        "awards": []
+    }
+]

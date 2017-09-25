@@ -1,0 +1,43 @@
+<header>
+</header>
+
+<div class="row-fluid block-primary">
+    <div class="container">
+
+        <!-- ABOUT ME -->
+        <about-me id="about"></about-me>
+        <!-- about me -->
+
+        <!-- SKILLS -->
+        <skills id="skills"></skills>
+        <!-- skills -->
+    </div>
+</div>
+
+<div class="row-fluid block-secondary">
+    <div class="container">
+
+        <!-- Experiences -->
+        <experiences id="experiences"></experiences>
+        <!-- Experiences -->
+
+        <!-- Experiences -->
+        <educations id="educations"></educations>
+        <!-- Experiences -->
+    </div>
+</div>
+
+<footer class="clearfix">
+    <div class="row-fluid">
+        <div class="col-sm-8 col-sm-offset-2">
+            <div class="footer-icons clearfix">
+                <a ng-repeat="(key, value) in user.socialLinks" ng-href="{{value}}" title="{{key}}" class="icon-holder">
+                    <i class="fa fa-{{key}}"></i>
+                </a>
+                <a ng-href="app/doc/TarunRaoTDFE.docx" title="Download Resume" class="icon-holder highlight">
+                    <i class="fa fa-download"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>

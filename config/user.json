@@ -1,0 +1,17 @@
+{
+    "name": "Tarun Rao TD",
+    "fname": "Tarun",
+    "lname": "Rao",
+    "designation": "Team Lead",
+    "dob": "10/10/1989",
+    "maritalStatus": "married",
+    "email": "tarunrao.td@gmail.com",
+    "phone": "+91 9176298797",
+    "website": "http://tarunrao.comxa.com",
+    "profilePic":  "app/images/me_120.jpg",
+    "summary": "An accomplished Team Lead with Development skills on both Frontend and Backend who thrives in challenging, fast paced environments where my performance directly impacts the bottom line. Good working experience in Javascript, jQuery, AngularJS, RequireJS, HTML5, CSS3 and third party integrations. Ability to adopt and learn new and challenging technologies.",
+    "socialLinks": {
+        "facebook" : "https://www.facebook.com/tarunrao.td",
+        "linkedin" : "https://in.linkedin.com/in/tarunraotd"
+    }
+}

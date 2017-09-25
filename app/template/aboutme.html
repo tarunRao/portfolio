@@ -1,0 +1,41 @@
+<section class="about-me">
+        <div class="row col-sm-offset-0">
+            <div class="col-sm-4 title">
+                <i class="icon fa fa-user"></i>About Me
+            </div>
+            <div class="col-sm-8">
+                <div class="border-line"></div>
+            </div>
+        </div>
+
+        <div class="row basic-info">
+            <div class="col-sm-4">
+
+                <div class="list-info">
+                    <span><b>Experience</b></span>
+                    <span>{{totalExperience}} Years</span>
+                </div>
+                <div class="list-info">
+                    <span><b>Birth</b></span>
+                    <span>{{user.dob}}</span>
+                </div>
+                <div class="list-info">
+                    <span><b>Web</b></span>
+                    <span><a href="{{user.website}}" target="_blank">{{user.website}}</a></span>
+                </div>
+                <div class="list-info">
+                    <span><b>E-mail</b></span>
+                    <span><a href ng-click="aboutCtrl.sendMail(user.email)">{{user.email}}</a></span>
+                </div>
+                <div class="list-info">
+                    <span><b>Phone</b></span>
+                    <span>{{user.phone}}</span>
+                </div>
+
+            </div>
+            <div class="col-sm-8 clearfix">
+                <div class="user-pic pull-left"><img src="{{user.profilePic}}"></div>
+                <div class="summary">{{user.summary}}</div>
+            </div>
+        </div>
+</section>

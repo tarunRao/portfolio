@@ -1,0 +1,23 @@
+<section class="educations">
+        <div class="row col-sm">
+            <div class="col-sm-4 title">
+                <i class="icon fa fa-graduation-cap"></i>Educations
+            </div>
+            <div class="col-sm-8">
+                <div class="border-line"></div>
+            </div>
+        </div>
+        <div class="row-fluid" ng-repeat="education in educations">
+            <div class="col-sm-3 edu-col">
+                <div class="edu-cont clearfix">
+                    <div class="edu-marks pull-right" ng-show=education.marks.length>{{education.marks}}</div>
+                    <div>
+                        <div class="edu-course">{{education.course}}</div>
+                        <div class="edu-university">{{education.university}}</div>
+                        <strong class="edu-institute">{{education.institute}}</strong>
+                        <div class="edu-year"><code>{{education.year | monthYear}}</code></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>

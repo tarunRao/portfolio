@@ -1,0 +1,30 @@
+[
+    {
+        "institute": "Arena Animation Institution",
+        "university": "Multimedia",
+        "course": "AAASP",
+        "year": "01/03/2011",
+        "marks": ""
+    },
+    {
+        "institute": "D.G. Vaishnav College",
+        "university": "Madras University",
+        "course": "BCA",
+        "year": "01/04/2010",
+        "marks": "76%"
+    },
+    {
+        "institute": "St. Mary's Boys Hr. Sec. School",
+        "university": "Matriculation",
+        "course": "HSC",
+        "year": "01/03/2007",
+        "marks": "86%"
+    },
+    {
+        "institute": "St. Mary's Boys Hr. Sec. School",
+        "university": "Matriculation",
+        "course": "SSLC",
+        "year": "01/03/2005",
+        "marks": "72%"
+    }
+]

@@ -1,0 +1,68 @@
+{
+    "frontend": {
+        "name": "Front-end",
+        "rate": 0,
+        "ratings": {
+            "AngularJS": 75,
+            "HTML5": 89,
+            "CSS3": 82,
+            "NodeJS": 62,
+            "JS": 92,
+            "Jquery": 95,
+            "WebGL": 75
+        }
+    },
+    "backend": {
+        "name": "Back-end",
+        "rate": 0,
+        "ratings": {
+            "MVC": 96,
+            "PHP": 82,
+            "MySQL": 79,
+            "MongoDB": 60,
+            "CodeIgniter": 65,
+            "NginX": 65
+        }
+    },
+    "repos": {
+        "name": "Repositories",
+        "rate": 0,
+        "ratings": {
+            "SVN": 75,
+            "GIT": 88
+        }
+    },
+    "automation": {
+        "name": "Process Automation",
+        "rate": 0,
+        "ratings": {
+            "Grunt": 75,
+            "Gulp": 60,
+            "Docker": 30
+        }
+    },
+    "pm": {
+        "name": "Project Management",
+        "rate": 0,
+        "ratings": {
+            "Leadership": 88,
+            "Planning": 82,
+            "WireFrame": 76,
+            "Conception": 83,
+            "Designing": 75,
+            "Agile-Kanban": 86
+        }
+    },
+    "softwares": {
+        "name": "Softwares",
+        "rate": 0,
+        "ratings": {
+            "Azure": 86,
+            "Photoshop": 92,
+            "Flash [AS3.0]": 60,
+            "Illustrator": 83,
+            "Netbeans": 81,
+            "3DsMax": 60
+        }
+    }
+}
